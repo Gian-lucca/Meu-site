@@ -14,4 +14,20 @@ export default createGlobalStyle`
         color: ${props => props.theme.colors.text};
         font-family: sans-serif;
     }
+
+    #portifolio h1{
+        background: ${props => props.theme.colors.text};
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    #main-content p {
+        color: #fff;
+    }
+
+    .mododark {
+        background: ${props => props.theme.colors.text};
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 `;

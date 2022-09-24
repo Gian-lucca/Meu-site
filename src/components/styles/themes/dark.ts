@@ -7,5 +7,15 @@ export default {
 
       background: '#222',
       text: '#fff',
+      portifolio: '#111',
+      
     },
+
+    portifolio:{
+      background: '#fff',
+    },
+
+    mododark:{
+      background: '#fff',
+    }
 };

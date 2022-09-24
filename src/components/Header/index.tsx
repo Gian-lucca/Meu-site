@@ -14,7 +14,7 @@ const Header: React.FC<Props>= ({ toggleTheme }) => {
 
     return (
         <Container>
-            <h4 className='modo-dark'> Modo dark </h4>
+            <h4 className='mododark'> Modo Dark </h4>
 
             <Switch
                 onChange={toggleTheme}
