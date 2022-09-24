@@ -6,7 +6,7 @@ const ProjectsContainer = () => {
     <p> Veja um pouco dos Projetos realizados por mim !</p>
     
     <video width="100%" controls="controls">
-        <source src="src\videos\meuvideo1.mp4" type="video/mp4"/>
+        <source src="https://gianlucca-augusto.vercel.app/src\videos\meuvideo1.mp4" type="video/mp4"/>
     </video>
     
   </section>
