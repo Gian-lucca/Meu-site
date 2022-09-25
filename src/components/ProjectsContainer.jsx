@@ -5,9 +5,7 @@ const ProjectsContainer = () => {
     <h2>Projetos</h2>
     <p> Veja um pouco dos Projetos realizados por mim !</p>
     
-    <video width="100%" controls="controls">
-        <source src="https://gianlucca-augusto.vercel.app/src\videos\meuvideo1.mp4" type="video/mp4"/>
-    </video>
+    <iframe width="684" height="385" src="https://www.youtube.com/embed/Bd08D92N4pU" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     
   </section>
 };
