@@ -159,7 +159,7 @@ export const education = [
     id: 0,
     img: "https://media.licdn.com/dms/image/v2/D4D0BAQHNATY0WG8oww/company-logo_200_200/company-logo_200_200/0/1703680292657/centro_universitrio_carioca_logo?e=1741219200&v=beta&t=JjNccOVBzsvmzVMKnEZ5wGf6TOGUeXYTnV-CuGhOBAc",
     school: "Centro Universitário UniCarioca",
-    date: "Dezembro 2016 - Março 2020",
+    date: "Janeiro 2016 - Março 2020",
     desc: "Na faculdade de Análise e Desenvolvimento de Sistemas, eu aprendi a desenvolver e gerenciar software, desde a lógica de programação até a implementação de sistemas completos, além de conceitos como banco de dados, estrutura de dados e metodologias ágeis. Também aprendi sobre segurança da informação e arquitetura de sistemas, sempre com foco em criar soluções eficientes e inovadoras.",
     degree: "Tecnólogo em Análise e Desenvolvimento de Sistemas",
   },
