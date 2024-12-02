@@ -123,9 +123,9 @@ export const experiences = [
   },
   {
     id: 2,
-    img: "https://www.svgrepo.com/show/508699/landscape-placeholder.svg",
-    role: "JGLCONSERT",
-    company: "Sócio proprietário",
+    img: "https://raw.githubusercontent.com/Gian-lucca/Meu-site/refs/heads/develop/src/images/jgl.jpeg",
+    role: "Sócio proprietário",
+    company: "JGLCONSERT",
     date: "Fevereiro 2021 - Junho 2021",
     desc: "Loja de manutenção de aparelhos de celular e notebook.",
   },
