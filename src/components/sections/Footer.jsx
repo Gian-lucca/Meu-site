@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { Bio } from "../../data/constants";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import  WhatsappIcon  from "@mui/icons-material/WhatsApp";
 
 const FooterContainer = styled.div`
   width: 100%;
@@ -100,6 +101,9 @@ const Footer = () => {
           </SocialMediaIcon>
           <SocialMediaIcon href={Bio.insta} target="display">
             <InstagramIcon />
+          </SocialMediaIcon>
+          <SocialMediaIcon href={Bio.whatsapp} target="display">
+            <WhatsappIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>&copy; Copyright 2024 Gianlucca Augusto, Todos os direitos reservados.</Copyright>

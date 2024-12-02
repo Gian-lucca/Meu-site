@@ -4,13 +4,12 @@ export const Bio = {
     "Web Developer",
     "Analista PHP Drupal"
   ],
-  description:
-    "Sou um indivíduo motivado e versátil, sempre ansioso para assumir novos desafios. Com paixão por aprender, dedico-me a entregar resultados de alta qualidade. Com uma atitude positiva e uma mentalidade de crescimento, estou pronto para fazer uma contribuição significativa e alcançar grandes coisas.",
+  description:"Sou um profissional motivado e versátil, disposto á assumir novos desafios. Buscando sempre aprender com dedicação e entrega. Com uma atitude positiva e uma mentalidade de crescimento, estou pronto para fazer grandes coisas.",
   github: "https://github.com/Gian-lucca",
-  resume:
-    "https://drive.google.com/drive/my-drive",
+  resume:"https://drive.google.com/drive/my-drive",
   linkedin: "https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile",
   insta: "https://www.instagram.com/gianlucaaugusto/",
+  whatsapp: "https://wa.me/21965415563",
 };
 
 export const skills = [
@@ -158,30 +157,19 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
-    school: "Kalinga Institute of Industrial Technology, Bhubaneswar",
-    date: "Oct 2021 - Sep 2025",
-    grade: "8.41 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
-    degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+    img: "https://media.licdn.com/dms/image/v2/D4D0BAQHNATY0WG8oww/company-logo_200_200/company-logo_200_200/0/1703680292657/centro_universitrio_carioca_logo?e=1741219200&v=beta&t=JjNccOVBzsvmzVMKnEZ5wGf6TOGUeXYTnV-CuGhOBAc",
+    school: "Centro Universitário UniCarioca",
+    date: "Dezembro 2015 - Março 2020",
+    desc: "Na faculdade de Análise e Desenvolvimento de Sistemas, eu aprendi a desenvolver e gerenciar software, desde a lógica de programação até a implementação de sistemas completos, além de conceitos como banco de dados, estrutura de dados e metodologias ágeis. Também aprendi sobre segurança da informação e arquitetura de sistemas, sempre com foco em criar soluções eficientes e inovadoras.",
+    degree: "Tecnólogo em Análise e Desenvolvimento de Sistemas",
   },
   {
     id: 1,
     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-    school: "Methodist School, Dankuni",
-    date: "Apr 2019 - Apr 2025",
-    grade: "88.2%",
-    desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
-    degree: "ISC(XII), Science with Computer",
-  },
-  {
-    id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-    school: "Methodist School, Dankuni",
-    date: "Apr 2017 - Apr 2019",
-    grade: "92.3%",
-    desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
-    degree: "ICSC(X), Science with Computer",
+    school: "CETEF – Centro Técnico Fluminense",
+    date: "Dezembro 2014 - Dezembro 2015",
+    desc: "No curso técnico de telecomunicações, aprendi a trabalhar com diversas tecnologias de comunicação, como redes de computadores, sistemas de fibra óptica, cabeamento estruturado e antenas. Tivemos aulas teóricas e práticas, onde pude montar e configurar equipamentos, fazer medições com instrumentos especializados e resolver problemas técnicos. Além disso, aprendi sobre normas de segurança e qualidade, o que é fundamental para atuar no mercado. Essa experiência me deu uma base sólida para ingressar na área e acompanhar as inovações do setor.",
+    degree: "Técnico em Telecomunicações",
   },
 ];
 
@@ -190,7 +178,7 @@ export const projects = [
     id: 11,
     title: "Portfólio",
     description: "Meu Portfólio.",
-    image: "https://raw.githubusercontent.com/Gian-lucca/Meu-site/refs/heads/develop/src/images/meu%20site.PNG",
+    image: "https://raw.githubusercontent.com/Gian-lucca/Meu-site/refs/heads/develop/src/images/meu_site.PNG",
     tags: [
       "React Js",
       "JavaScript",
