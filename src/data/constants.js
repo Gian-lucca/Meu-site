@@ -1,7 +1,7 @@
 export const Bio = {
   name: "Gianlucca Augusto",
   roles: [
-    "Web mainer",
+    "Web Developer",
     "Analista PHP Drupal"
   ],
   description:"Sou um profissional motivado e versátil, disposto á assumir novos desafios. Buscando sempre aprender com dedicação e entrega. Com uma atitude positiva e uma mentalidade de crescimento, estou pronto para fazer grandes coisas.",
@@ -9,7 +9,7 @@ export const Bio = {
   resume:"https://raw.githubusercontent.com/Gian-lucca/Meu-site/refs/heads/main/src/images/Gianlucca-Augusto.pdf",
   linkedin: "https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile",
   insta: "https://www.instagram.com/gianlucaaugusto/",
-  whatsapp: "https://wa.me/21965415563",
+  whatsapp: "https://wa.me/5521965415563",
 };
 
 export const skills = [
@@ -159,7 +159,7 @@ export const education = [
     id: 0,
     img: "https://media.licdn.com/dms/image/v2/D4D0BAQHNATY0WG8oww/company-logo_200_200/company-logo_200_200/0/1703680292657/centro_universitrio_carioca_logo?e=1741219200&v=beta&t=JjNccOVBzsvmzVMKnEZ5wGf6TOGUeXYTnV-CuGhOBAc",
     school: "Centro Universitário UniCarioca",
-    date: "Dezembro 2015 - Março 2020",
+    date: "Dezembro 2016 - Março 2020",
     desc: "Na faculdade de Análise e Desenvolvimento de Sistemas, eu aprendi a desenvolver e gerenciar software, desde a lógica de programação até a implementação de sistemas completos, além de conceitos como banco de dados, estrutura de dados e metodologias ágeis. Também aprendi sobre segurança da informação e arquitetura de sistemas, sempre com foco em criar soluções eficientes e inovadoras.",
     degree: "Tecnólogo em Análise e Desenvolvimento de Sistemas",
   },
