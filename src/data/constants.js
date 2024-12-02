@@ -6,7 +6,7 @@ export const Bio = {
   ],
   description:"Sou um profissional motivado e versátil, disposto á assumir novos desafios. Buscando sempre aprender com dedicação e entrega. Com uma atitude positiva e uma mentalidade de crescimento, estou pronto para fazer grandes coisas.",
   github: "https://github.com/Gian-lucca",
-  resume:"https://drive.google.com/drive/my-drive",
+  resume:"https://raw.githubusercontent.com/Gian-lucca/Meu-site/refs/heads/main/src/images/Gianlucca-Augusto.pdf",
   linkedin: "https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile",
   insta: "https://www.instagram.com/gianlucaaugusto/",
   whatsapp: "https://wa.me/21965415563",
