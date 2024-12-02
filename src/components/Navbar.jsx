@@ -140,7 +140,7 @@ const Navbar = () => {
       <NavbarContainer>
         <NavLogo to="/">
           <ColorText>&lt;</ColorText>Gianlucca
-          <div style={{ color: theme.primary }}>/</div>Augusto
+          <div id="barra">/</div>Augusto
           <ColorText>&gt;</ColorText>
         </NavLogo>
 

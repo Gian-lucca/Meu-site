@@ -118,7 +118,7 @@ const Projects = ({ openModal, setOpenModal }) => {
             active={toggle === "web app"}
             onClick={() => setToggle("web app")}
           >
-            WEB Site
+            Web Site
           </ToggleButton>
           <Divider />
           <ToggleButton
@@ -132,7 +132,7 @@ const Projects = ({ openModal, setOpenModal }) => {
             active={toggle === "machine learning"}
             onClick={() => setToggle("machine learning")}
           >
-            APRENDIZAGEM
+            Aprendizagem
           </ToggleButton>
         </ToggleButtonGroup>
         <CardContainer>

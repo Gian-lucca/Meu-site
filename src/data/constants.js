@@ -19,7 +19,7 @@ export const skills = [
     skills: [
       {
         name: "Drupal",
-        image: "https://upload.wikimedia.org/wikipedia/commons/7/75/Druplicon.vector.svg",
+        image: "https://raw.githubusercontent.com/Gian-lucca/Meu-site/d2f1e6e27b5a8b4f8eaf7e6928583868c9c285ce/src/images/drupal.svg",
       },
       {
         name: "HTML",
@@ -135,7 +135,7 @@ export const experiences = [
     role: "Técnico de celular Pleno",
     company: "iCaiu",
     date: "Novembro 2018 - Janeiro 2021",
-    desc: "Manutenção em iPhones e iPads, Atendimento ao cliente, Administrativo de toda loja, Responsável pelo treinamento de novos Técnicos, Responsável pela conferência e relatórios de estoque, Responsável pra solucionar todo e qualquer tipo de problemas que aparece-se em loja e Responsável por toda equipe",
+    desc: "Comecei como Tec.Junior e em Fevereiro de 2020 fui promovido para Tec.Pleno, aqui esta algumas das minhas atividades:Manutenção em iPhones e iPads, Atendimento ao cliente, Administrativo de toda loja, Responsável pelo treinamento de novos Técnicos, Responsável pela conferência e relatórios de estoque, Responsável pra solucionar todo e qualquer tipo de problemas que aparece-se em loja e Responsável por toda equipe",
   },
   {
     id: 4,
