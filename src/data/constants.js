@@ -165,7 +165,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+    img: "https://raw.githubusercontent.com/Gian-lucca/Meu-site/refs/heads/develop/src/images/cetef.png",
     school: "CETEF – Centro Técnico Fluminense",
     date: "Dezembro 2014 - Dezembro 2015",
     desc: "No curso técnico de telecomunicações, aprendi a trabalhar com diversas tecnologias de comunicação, como redes de computadores, sistemas de fibra óptica, cabeamento estruturado e antenas. Tivemos aulas teóricas e práticas, onde pude montar e configurar equipamentos, fazer medições com instrumentos especializados e resolver problemas técnicos. Além disso, aprendi sobre normas de segurança e qualidade, o que é fundamental para atuar no mercado. Essa experiência me deu uma base sólida para ingressar na área e acompanhar as inovações do setor.",
