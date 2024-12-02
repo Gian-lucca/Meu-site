@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0px !important;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 80px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #222a35;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #575c66;
+  border-radius: 6px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #626970;
+}
+
+::-webkit-backdrop-filter {
+  blur: 3px saturate(106%);
+}
+
+.ifBPIN {
+  color: #da9b1d !important;
+}
+
+.lkOHvu {
+  color: #da9b1d !important;
+}
+
+.eeBgWD {
+  border: 2px solid #da9b1d !important;
+}
+
+.lkjEkl {
+  border: 1px solid #da9b1d !important;
+  color: #da9b1d !important;
+}
+
+.cZiFfz {
+  border: 1.5px solid #da9b1d !important;
+  color: #da9b1d !important;
+}
+
+.bvBTfX {
+  color: #da9b1d !important;
+  background-color: #da9b1d52 !important;
+}
+
+.cnrOaZ {
+  background: #da9b1d52 !important;
+}
+
+.fEUAlO {
+  color: #da9b1d !important;
+}
+
+.ddioiN {
+  background: linear-gradient(135deg, #da9b1d, #f1c45b, #8e5e0a) !important;
+}
+
+.LYMCx {
+  background: #da9b1d !important;
+}
+
+.jVqrJO:hover {
+  background: #da9b1d52 !important;
+}
+
+#barra {
+  color: #da9b1d !important;
+}
+
+.lkjEkl:hover {
+  background: #da9b1d52 !important;
+}
+
+.css-i4bv87-MuiSvgIcon-root:hover {
+  color: #da9b1d !important;
+}
+
+.bKeHqO {
+  height: 410px !important;
+}
