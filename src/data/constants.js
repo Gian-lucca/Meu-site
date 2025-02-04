@@ -91,7 +91,7 @@ export const experiences = [
     role: "Analista Desenvolvedor PHP Drupal",
     company: "Extreme Digital Solutions - EDS",
     date: "Julho 2021 - Momento",
-    desc: "Atualmente coordenador da equipe, focado exclusivamente no desenvolvimento de websites com o CMS Drupal, prestando serviços ao Proderj (Centro de Tecnologia da Informação e Comunicação do Estado do Rio de Janeiro).",
+    desc: "Atualmente prestando serviços a PGE - RJ (Procuradoria Geral do Estado do Rio de Janeiro) na parte de Desenvolvimento de websites utilizando HTML, CSS com designer responsivo junto com CMS DRUPAL.",
     skills: [
       "Drupal",
       "HTML",
