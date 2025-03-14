@@ -87,8 +87,8 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/v2/D4D0BAQGlkyJOKvz6WQ/company-logo_200_200/company-logo_200_200/0/1718300941618/extremedigitalsolutions_logo?e=1741219200&v=beta&t=j0kmI2DX_VYE2SE7LL2SujJcPa63opG1ZN8dDR26cSI",
-    role: "Analista Desenvolvedor PHP Drupal",
+    img: "https://raw.githubusercontent.com/Gian-lucca/Meu-site/refs/heads/main/src/images/extremedigitalsolutions_logo.jpg",
+    role: "Analista Desenvolvedor Full Stack Drupal Pleno",
     company: "Extreme Digital Solutions - EDS",
     date: "Julho 2021 - Momento",
     desc: "Atualmente prestando serviços a PGE - RJ (Procuradoria Geral do Estado do Rio de Janeiro) na parte de Desenvolvimento de websites utilizando HTML, CSS com designer responsivo junto com CMS DRUPAL.",
@@ -108,6 +108,21 @@ export const experiences = [
   {
     id: 1,
     img: "https://media.licdn.com/dms/image/v2/C510BAQGcRycrRp3kiA/company-logo_200_200/company-logo_200_200/0/1631368320150?e=1741219200&v=beta&t=Gw2WScqSvH5DKY5nBEkMElaxb2WHBlC8EHyhibANNLw",
+    role: "Desenvolvedor Full Stack Drupal Pleno",
+    company: "Squadra Digital",
+    date: "Dezembro 2024 - Fevereiro 2025",
+    desc: "Desenvolvimento de web site utilizando o CMS Drupal com foco na utilização do Site Studio.",
+    skills: [
+      "Drupal",
+      "Acquia Cloud",
+      "Site studio",
+      "Figma",
+    ],
+    doc: "",
+  },
+  {
+    id: 2,
+    img: "https://media.licdn.com/dms/image/v2/C510BAQGcRycrRp3kiA/company-logo_200_200/company-logo_200_200/0/1631368320150?e=1741219200&v=beta&t=Gw2WScqSvH5DKY5nBEkMElaxb2WHBlC8EHyhibANNLw",
     role: "Desenvolvedor PHP Junior",
     company: "Tecmaster Informática - Consultoria",
     date: "Fevereiro 2024 - Agosto 2024",
@@ -121,7 +136,7 @@ export const experiences = [
     doc: "",
   },
   {
-    id: 2,
+    id: 3,
     img: "https://raw.githubusercontent.com/Gian-lucca/Meu-site/refs/heads/main/src/images/jgl.jpeg",
     role: "Sócio proprietário",
     company: "JGLCONSERT",
@@ -129,7 +144,7 @@ export const experiences = [
     desc: "Loja de manutenção de aparelhos de celular e notebook.",
   },
   {
-    id: 3,
+    id: 4,
     img: "https://media.licdn.com/dms/image/v2/C4D0BAQH7U5kE2bmoRw/company-logo_200_200/company-logo_200_200/0/1630530079634/icaiu_logo?e=1741219200&v=beta&t=PcATlgtcxc00HsqdzlnZPDoEbKen3GrUkyNa1_2vPn4",
     role: "Técnico de celular Pleno",
     company: "iCaiu",
@@ -137,7 +152,7 @@ export const experiences = [
     desc: "Comecei como Tec.Junior e em Fevereiro de 2020 fui promovido para Tec.Pleno, aqui esta algumas das minhas atividades:Manutenção em iPhones e iPads, Atendimento ao cliente, Administrativo de toda loja, Responsável pelo treinamento de novos Técnicos, Responsável pela conferência e relatórios de estoque, Responsável pra solucionar todo e qualquer tipo de problemas que aparece-se em loja e Responsável por toda equipe",
   },
   {
-    id: 4,
+    id: 5,
     img: "https://media.licdn.com/dms/image/v2/C4E0BAQEAWbb_xpJB6g/company-logo_200_200/company-logo_200_200/0/1630637071616/detro_departamento_de_transporte_rodovirio_do_rj_logo?e=1741219200&v=beta&t=stKc4D-sE6ZnIKFrjhO0xePKt6nX32CvrnZM9bz3ct0",
     role: "Estagiário",
     company: "DETRO - Departamento de Transporte Rodoviário do RJ",
@@ -145,7 +160,7 @@ export const experiences = [
     desc: " Responsável pelo atendimento ao público, Distribuição de processos e correspondência pelo órgão, Instrução de processos, Inclusão de processos no sistema ( UPO ) e Arquivista de processos.",
   },
   {
-    id: 5,
+    id: 6,
     img: "https://raw.githubusercontent.com/Gian-lucca/Meu-site/refs/heads/main/src/images/images.jpg",
     role: "Aprendiz",
     company: "TIBRÁS - Iguaçu Utilidades e Papelaria Ltda",
