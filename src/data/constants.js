@@ -107,7 +107,7 @@ export const experiences = [
   },
   {
     id: 1,
-    img: "https://media.licdn.com/dms/image/v2/C510BAQGcRycrRp3kiA/company-logo_200_200/company-logo_200_200/0/1631368320150?e=1741219200&v=beta&t=Gw2WScqSvH5DKY5nBEkMElaxb2WHBlC8EHyhibANNLw",
+    img: "https://raw.githubusercontent.com/Gian-lucca/Meu-site/refs/heads/main/src/images/squadradigital_logo.jpg",
     role: "Desenvolvedor Full Stack Drupal Pleno",
     company: "Squadra Digital",
     date: "Dezembro 2024 - Fevereiro 2025",
@@ -122,7 +122,7 @@ export const experiences = [
   },
   {
     id: 2,
-    img: "https://media.licdn.com/dms/image/v2/C510BAQGcRycrRp3kiA/company-logo_200_200/company-logo_200_200/0/1631368320150?e=1741219200&v=beta&t=Gw2WScqSvH5DKY5nBEkMElaxb2WHBlC8EHyhibANNLw",
+    img: "https://raw.githubusercontent.com/Gian-lucca/Meu-site/refs/heads/main/src/images/1631368320150.jpg",
     role: "Desenvolvedor PHP Junior",
     company: "Tecmaster Informática - Consultoria",
     date: "Fevereiro 2024 - Agosto 2024",
@@ -145,7 +145,7 @@ export const experiences = [
   },
   {
     id: 4,
-    img: "https://media.licdn.com/dms/image/v2/C4D0BAQH7U5kE2bmoRw/company-logo_200_200/company-logo_200_200/0/1630530079634/icaiu_logo?e=1741219200&v=beta&t=PcATlgtcxc00HsqdzlnZPDoEbKen3GrUkyNa1_2vPn4",
+    img: "https://raw.githubusercontent.com/Gian-lucca/Meu-site/refs/heads/main/src/images/icaiu_logo.jpg",
     role: "Técnico de celular Pleno",
     company: "iCaiu",
     date: "Novembro 2018 - Janeiro 2021",
@@ -153,7 +153,7 @@ export const experiences = [
   },
   {
     id: 5,
-    img: "https://media.licdn.com/dms/image/v2/C4E0BAQEAWbb_xpJB6g/company-logo_200_200/company-logo_200_200/0/1630637071616/detro_departamento_de_transporte_rodovirio_do_rj_logo?e=1741219200&v=beta&t=stKc4D-sE6ZnIKFrjhO0xePKt6nX32CvrnZM9bz3ct0",
+    img: "https://raw.githubusercontent.com/Gian-lucca/Meu-site/refs/heads/main/src/images/detro_departamento_de_transporte_rodovirio_do_rj_logo.jpg",
     role: "Estagiário",
     company: "DETRO - Departamento de Transporte Rodoviário do RJ",
     date: "Março 2017 - Outubro 2018",
@@ -172,7 +172,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/v2/D4D0BAQHNATY0WG8oww/company-logo_200_200/company-logo_200_200/0/1703680292657/centro_universitrio_carioca_logo?e=1741219200&v=beta&t=JjNccOVBzsvmzVMKnEZ5wGf6TOGUeXYTnV-CuGhOBAc",
+    img: "https://raw.githubusercontent.com/Gian-lucca/Meu-site/refs/heads/main/src/images/centro_universitrio_carioca_logo.jpg",
     school: "Centro Universitário UniCarioca",
     date: "Janeiro 2016 - Março 2020",
     desc: "Na faculdade de Análise e Desenvolvimento de Sistemas, eu aprendi a desenvolver e gerenciar software, desde a lógica de programação até a implementação de sistemas completos, além de conceitos como banco de dados, estrutura de dados e metodologias ágeis. Também aprendi sobre segurança da informação e arquitetura de sistemas, sempre com foco em criar soluções eficientes e inovadoras.",
@@ -203,6 +203,15 @@ export const projects = [
     category: "machine learning",
     webapp: "https://gianlucca-augusto.vercel.app/",
     github: "https://github.com/Gian-lucca/Meu-site",
+  },
+  {
+    id: 12,
+    title: "PGE - RJ ",
+    description: "Web site da Procuradoria Geral do Estado do Rio de Janeiro.",
+    image: "https://raw.githubusercontent.com/Gian-lucca/Meu-site/refs/heads/main/src/images/pge.PNG",
+    tags: ["Drupal", "PHP", "MySQL", "HTML", "CSS", "JavaScript"],
+    category: "web app",
+    webapp: "https://pge.rj.gov.br/",
   },
   {
     id: 9,
