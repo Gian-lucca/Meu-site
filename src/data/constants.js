@@ -208,7 +208,7 @@ export const projects = [
     id: 12,
     title: "PGE - RJ ",
     description: "Web site da Procuradoria Geral do Estado do Rio de Janeiro.",
-    image: "https://raw.githubusercontent.com/Gian-lucca/Meu-site/refs/heads/main/src/images/pge.PNG",
+    image: "https://raw.githubusercontent.com/Gian-lucca/Meu-site/refs/heads/main/src/images/pge.png",
     tags: ["Drupal", "PHP", "MySQL", "HTML", "CSS", "JavaScript"],
     category: "web app",
     webapp: "https://pge.rj.gov.br/",
