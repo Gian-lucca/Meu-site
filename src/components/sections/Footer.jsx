@@ -106,7 +106,7 @@ const Footer = () => {
             <WhatsappIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>&copy; Copyright 2024 Gianlucca Augusto, Todos os direitos reservados.</Copyright>
+        <Copyright>&copy; Copyright 2026 Gianlucca Augusto, Todos os direitos reservados.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );

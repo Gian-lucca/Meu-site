@@ -174,6 +174,20 @@ export const education = [
 export const projects = [
   {
     id: 11,
+    title: "União Fight",
+    description: "União Fight - Gestão Completa para academias",
+    image: require("../images/uniao-fight.jpg"),
+    tags: [
+      "JavaScript",
+      "CSS",
+      "HTML",
+    ],
+    category: "android app",
+    webapp: "https://admirable-treacle-572b98.netlify.app/",
+    github: "https://github.com/Gian-lucca/uniao-fight-app",
+  },
+  {
+    id: 12,
     title: "Portfólio",
     description: "Meu Portfólio.",
     image: "https://raw.githubusercontent.com/Gian-lucca/Meu-site/refs/heads/main/src/images/meu_site.PNG",
@@ -197,7 +211,7 @@ export const projects = [
       "PHP",
       "JavaScript",
     ],
-    category: "machine learning",
+    category: "web app",
     webapp: "https://fiesc.com.br/",
   },
   {

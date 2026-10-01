@@ -121,31 +121,12 @@ Outros pontos comuns de ajuste:
   `require()` dentro de `constants.js`.
 - **Seções:** edite a ordem dos componentes em `src/App.js`.
 
-### Formulário de contato
+## Seção de contato
 
-O formulário usa **EmailJS**. As credenciais são lidas de variáveis de ambiente,
-com fallback para os valores padrão em `src/components/sections/Contact.jsx`:
-
-```bash
-# copie o exemplo e preencha
-cp .env.example .env
-```
-
-| Variável                        | Onde encontrar no painel do EmailJS |
-| ------------------------------- | ----------------------------------- |
-| `REACT_APP_EMAILJS_SERVICE_ID`  | Email Services → Service ID         |
-| `REACT_APP_EMAILJS_TEMPLATE_ID` | Email Templates → Template ID        |
-| `REACT_APP_EMAILJS_PUBLIC_KEY`  | Account → Public Key                |
-
-O `.env` está no `.gitignore`, então as chaves não entram no commit.
-
-> **Os nomes dos campos importam.** O formulário envia `from_name`, `reply_to` e
-> `message`. Esses nomes precisam ser exatamente as variáveis usadas no seu
-> template do EmailJS, senão o e-mail chega com os campos vazios. Confira no
-> painel, abrindo o template e olhando o código do template.
-
-Depois de criar ou alterar o `.env`, reinicie o servidor (`Ctrl+C` e `npm start`),
-porque o Create React App só lê essas variáveis no boot.
+A seção "Contato" mostra apenas o planeta 3D, o título e uma descrição. **Não há
+formulário.** Para falar com você, os caminhos são os links do navbar e do rodapé
+(WhatsApp, LinkedIn, Instagram, GitHub), que saem do objeto `Bio` em
+`src/data/constants.js`.
 
 ## Stack completa
 
@@ -155,7 +136,7 @@ porque o Create React App só lê essas variáveis no boot.
 | 3D          | `three`, `@react-three/fiber`, `@react-three/drei`, `maath`                                     |
 | Estilo/UI   | `styled-components`, `@mui/material`, `@mui/icons-material`, `@emotion/react`, `@emotion/styled` |
 | Animação    | `framer-motion`, `react-tilt`, `react-scroll`, `typewriter-effect`                             |
-| Extras      | `@emailjs/browser`, `react-vertical-timeline-component`, `react-icons`                         |
+| Extras      | `react-vertical-timeline-component`, `react-icons`                                           |
 | Deploy/Test | `gh-pages`, `@testing-library/react`, `@testing-library/jest-dom`, `web-vitals`                 |
 
 ## Créditos
