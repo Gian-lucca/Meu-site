@@ -6,13 +6,18 @@ formação e contato.
 
 ## Requisitos
 
-| Ferramenta | Versão mínima |
-| ---------- | ------------- |
-| Node.js    | 16 (testado com 20.x) |
-| npm        | 8+            |
+| Ferramenta | Versão    |
+| ---------- | --------- |
+| Node.js    | 24.x      |
+| npm        | 10+       |
 
 > O projeto usa `react-scripts` 5, então não é necessário instalar nenhuma
 > ferramenta de build separada.
+>
+> A versão do Node está fixada em `engines.node` no `package.json`. A Vercel
+> **recusa** builds com Node 16 (`Found invalid or discontinued Node.js Version`),
+> então mantenha os dois em sincronia: no `package.json` e nas Project Settings
+> do projeto na Vercel.
 
 ## Como rodar localmente
 
@@ -45,17 +50,29 @@ BROWSER=none npm start       # não abre o navegador automaticamente
 
 ## Publicação
 
-O projeto está configurado para GitHub Pages via `gh-pages`:
+O deploy de produção é feito pela **Vercel**, conectada ao repositório no GitHub.
+A cada push na `main` a Vercel roda `npm run build` e publica sozinha.
+
+O projeto **não** tem campo `homepage` no `package.json`, e isso é intencional.
+Sem ele, o CRA monta os assets na raiz (`/static/...`), que é o que a Vercel
+espera. Se você um dia adicionar um `homepage`, o build passa a prefixar todos os
+caminhos e o site quebra na Vercel.
+
+Antes do primeiro deploy, confira em **Project Settings → Node.js Version** que
+está em `24.x`. Esse ajuste fica no painel da Vercel e não no repositório, então
+é o que costuma continuar travando o build mesmo com o `package.json` correto.
+
+### GitHub Pages (alternativa, não usado hoje)
+
+O script continua disponível via `gh-pages`, mas a branch `gh-pages` não existe
+no repositório, ou seja, nunca foi usado:
 
 ```bash
 npm run deploy
 ```
 
-A configuração relevante fica no `package.json`:
-
-- `homepage` — caminho base da aplicação (ex.: `https://usuario.github.io/repo`)
-  para que os assets funcionem em subdiretórios.
-- `predeploy` / `deploy` — build automático + publicação na branch `gh-pages`.
+Para esse caminho funcionar seria preciso adicionar de volta
+`"homepage": "https://<usuario>.github.io/<repo>"` ao `package.json`.
 
 ## Estrutura do projeto
 
