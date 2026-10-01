@@ -202,8 +202,8 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
           <Title>{project?.title}</Title>
           <Date>{project.date}</Date>
           <Tags>
-            {project?.tags.map((tag) => (
-              <Tag>{tag}</Tag>
+            {project?.tags.map((tag, index) => (
+              <Tag key={`tag-${index}`}>{tag}</Tag>
             ))}
           </Tags>
           <Desc>{project?.description}</Desc>
@@ -211,8 +211,8 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
             <>
               <Label>Members</Label>
               <Members>
-                {project?.member.map((member) => (
-                  <Member>
+                {project?.member.map((member, index) => (
+                  <Member key={`member-${index}`}>
                     <MemberImage src={member.img} />
                     <MemberName>{member.name}</MemberName>
                     <a

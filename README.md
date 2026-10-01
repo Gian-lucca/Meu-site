@@ -106,14 +106,29 @@ Outros pontos comuns de ajuste:
 
 ### Formulário de contato
 
-O formulário usa EmailJS e hoje está com as credenciais fixas no código em
-`src/components/sections/Contact.jsx` (`serviceID`, `templateID` e `publicKey`).
-Se você publicar este site, **substitua essas chaves pelas suas** e considere mover
-o `publicKey` para uma variável de ambiente:
+O formulário usa **EmailJS**. As credenciais são lidas de variáveis de ambiente,
+com fallback para os valores padrão em `src/components/sections/Contact.jsx`:
 
 ```bash
-REACT_APP_EMAILJS_PUBLIC_KEY=sua_chave
+# copie o exemplo e preencha
+cp .env.example .env
 ```
+
+| Variável                        | Onde encontrar no painel do EmailJS |
+| ------------------------------- | ----------------------------------- |
+| `REACT_APP_EMAILJS_SERVICE_ID`  | Email Services → Service ID         |
+| `REACT_APP_EMAILJS_TEMPLATE_ID` | Email Templates → Template ID        |
+| `REACT_APP_EMAILJS_PUBLIC_KEY`  | Account → Public Key                |
+
+O `.env` está no `.gitignore`, então as chaves não entram no commit.
+
+> **Os nomes dos campos importam.** O formulário envia `from_name`, `reply_to` e
+> `message`. Esses nomes precisam ser exatamente as variáveis usadas no seu
+> template do EmailJS, senão o e-mail chega com os campos vazios. Confira no
+> painel, abrindo o template e olhando o código do template.
+
+Depois de criar ou alterar o `.env`, reinicie o servidor (`Ctrl+C` e `npm start`),
+porque o Create React App só lê essas variáveis no boot.
 
 ## Stack completa
 
@@ -125,6 +140,12 @@ REACT_APP_EMAILJS_PUBLIC_KEY=sua_chave
 | Animação    | `framer-motion`, `react-tilt`, `react-scroll`, `typewriter-effect`                             |
 | Extras      | `@emailjs/browser`, `react-vertical-timeline-component`, `react-icons`                         |
 | Deploy/Test | `gh-pages`, `@testing-library/react`, `@testing-library/jest-dom`, `web-vitals`                 |
+
+## Créditos
+
+Projeto baseado no template
+[3D Portfolio Website](https://github.com/rishavchanda/3d-portfolio-website) de
+**Rishav Chanda** (MIT), adaptado para o portfólio de Gianlucca Augusto.
 
 ## Licença
 
