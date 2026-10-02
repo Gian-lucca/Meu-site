@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import styled from "styled-components";
+import React, { useState, useEffect } from "react";
+import styled, { keyframes } from "styled-components";
 import { projects } from "../../data/constants";
 import ProjectCard from "../cards/ProjectCard";
 
@@ -55,7 +55,7 @@ border: 1.5px solid ${({ theme }) => theme.primary};
 color: ${({ theme }) => theme.primary};
 font-size: 16px;
 border-radius: 12px;
-font-weight 500;
+font-weight: 500;
 margin: 22px 0;
 @media (max-width: 768px){
     font-size: 12px;
@@ -85,16 +85,53 @@ const Divider = styled.div`
   background: ${({ theme }) => theme.primary};
 `;
 
+const fadeIn = keyframes`
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+`;
+
 const CardContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 28px;
   flex-wrap: wrap;
+  min-height: 420px;
+  animation: ${fadeIn} 0.6s ease;
 `;
 
 const Projects = ({ openModal, setOpenModal }) => {
   const [toggle, setToggle] = useState("all");
+  const [currentPage, setCurrentPage] = useState(1);
+  const projectsPerPage = 6;
+
+  const filteredProjects =
+    toggle === "all" ? projects : projects.filter((item) => item.category === toggle);
+
+  const totalPages = Math.ceil(filteredProjects.length / projectsPerPage);
+
+  const indexOfLastProject = currentPage * projectsPerPage;
+  const indexOfFirstProject = indexOfLastProject - projectsPerPage;
+  const currentProjects = filteredProjects.slice(indexOfFirstProject, indexOfLastProject);
+
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [toggle]);
+
+  useEffect(() => {
+    if (totalPages <= 1) return;
+    const interval = setInterval(() => {
+      setCurrentPage((prev) => (prev >= totalPages ? 1 : prev + 1));
+    }, 5000);
+    return () => clearInterval(interval);
+  }, [toggle, totalPages]);
+
   return (
     <Container id="Projects">
       <Wrapper>
@@ -135,26 +172,15 @@ const Projects = ({ openModal, setOpenModal }) => {
             Aprendizagem
           </ToggleButton>
         </ToggleButtonGroup>
-        <CardContainer>
-          {toggle === "all" &&
-            projects.map((project) => (
-              <ProjectCard
-                key={`project-${project.id}`}
-                project={project}
-                openModal={openModal}
-                setOpenModal={setOpenModal}
-              />
-            ))}
-          {projects
-            .filter((item) => item.category === toggle)
-            .map((project) => (
-              <ProjectCard
-                key={`project-${project.id}`}
-                project={project}
-                openModal={openModal}
-                setOpenModal={setOpenModal}
-              />
-            ))}
+        <CardContainer key={`${toggle}-page-${currentPage}`}>
+          {currentProjects.map((project) => (
+            <ProjectCard
+              key={`project-${project.id}`}
+              project={project}
+              openModal={openModal}
+              setOpenModal={setOpenModal}
+            />
+          ))}
         </CardContainer>
       </Wrapper>
     </Container>
